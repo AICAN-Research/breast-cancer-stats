@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: macos-11
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v1
       - name: Set up Python 3.8
@@ -30,4 +30,5 @@ jobs:
       
       - name: Download data
         run: |
+          mkdir data/
           wget -O ./data/SA_0000001439.csv "https://apps.who.int/gho/athena/api/GHO/SA_0000001439?format=csv"
