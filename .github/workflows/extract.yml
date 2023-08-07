@@ -19,10 +19,6 @@ jobs:
         with:
           python-version: 3.8
       
-      - name: Download data
-        run: |
-          wget 
-      
       - name: Install dependencies
         run: |
           pip install wheel setuptools
