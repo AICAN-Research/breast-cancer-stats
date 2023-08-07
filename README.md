@@ -1,5 +1,8 @@
 # breast-cancer-stats
 
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+<a href="https://colab.research.google.com/gist/andreped/4b0988424c837c8060835ed15b8ee1e9/breast_cancer_mortality_rate_world_map.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 This repository holds source code and examples on how to extract and visualize
 breast cancer data from the World Health Organization (WHO) database.
 
