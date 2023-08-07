@@ -1,4 +1,5 @@
-pandas
-numpy
-matplotlib
-setuptools
+geopandas
+folium
+pycountry
+Pillow
+selenium

@@ -3,3 +3,8 @@
 *.idea/
 *.vs/
 *__pycache__/
+*venv/
+*.html
+*.log
+*.png
+*.pdf
