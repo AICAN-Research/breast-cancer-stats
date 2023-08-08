@@ -14,7 +14,7 @@ breast cancer data from the World Health Organization (WHO) database.
 
 ## [Examples](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#Examples)
 
-Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory.
+Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/tree/main/apps) directory.
 
 They can be accessed by clicking their respective colab badge below:
 
