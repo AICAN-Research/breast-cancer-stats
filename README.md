@@ -6,6 +6,10 @@
 This repository contains useful notebook examples on how to extract and visualize
 breast cancer data from the World Health Organization (WHO) database.
 
+<p style="text-align: left;">
+  <img src="assets/incidence.png" width="60%" style="background-color:black">
+</p>
+
 ## Dependencies
 
 The Notebooks were tested against Python 3.8 on macOS operating system. However, they should be
