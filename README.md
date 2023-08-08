@@ -3,7 +3,7 @@
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/675594864.svg)](https://zenodo.org/badge/latestdoi/675594864)
 <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-![CI](https://github.com/andreped/breast-cancer-stats/workflows/tests/badge.svg)
+![CI](https://github.com/andreped/breast-cancer-stats/workflows/incidence/badge.svg)
 
 This repository contains useful notebook examples on how to extract and visualize
 breast cancer data from the World Health Organization (WHO) database.
@@ -11,6 +11,18 @@ breast cancer data from the World Health Organization (WHO) database.
 <p style="text-align: left;">
   <img src="assets/incidence.png" width="90%" style="background-color:black">
 </p>
+
+## [Examples](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#Examples)
+
+Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory.
+
+They can be accessed by clicking their respective colab badge below:
+
+| Use case | Notebook | Tests |
+| - | - | - |
+| Incidence rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/incidence/badge.svg) |
+| Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/mortality/badge.svg) |
+| Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/stats/badge.svg) |
 
 ## [Dependencies](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#dependencies)
 
@@ -22,18 +34,6 @@ installed directly through the notebooks:
 * [plotly](https://pypi.org/project/plotly/)
 * [nbformat](https://pypi.org/project/nbformat/)
 * [kaleido](https://pypi.org/project/kaleido/)
-
-## [Examples](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#Examples)
-
-Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory.
-
-They can be accessed by clicking their respective colab badge below:
-
-| Use case | Notebook |
-| - | - |
-| Incidence rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## [License](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#License)
 

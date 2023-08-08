@@ -1,4 +1,4 @@
-name: tests
+name: mortality
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         run: pip install jupyter nbconvert nbformat
       
       - name: Launch notebook
-        run:  jupyter nbconvert --to notebook --execute apps/breast_cancer_incidence_rate.ipynb --ExecutePreprocessor.kernel_name='python3' --output ../notebook_executed
+        run:  jupyter nbconvert --to notebook --execute apps/breast_cancer_mortality_rate.ipynb --ExecutePreprocessor.kernel_name='python3' --output ../notebook_executed
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
