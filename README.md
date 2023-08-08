@@ -22,7 +22,7 @@ They can be accessed by clicking their respective colab badge below:
 | - | - | - |
 | Incidence rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/incidence/badge.svg) |
 | Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/mortality/badge.svg) |
-| Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/stats/badge.svg) |
+| Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | ![CI](https://github.com/andreped/breast-cancer-stats/workflows/statistics/badge.svg) |
 
 ## [Dependencies](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#dependencies)
 
