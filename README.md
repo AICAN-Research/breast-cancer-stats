@@ -1,4 +1,4 @@
-# breast-cancer-stats
+# [breast-cancer-stats](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#breast-cancer-stats)
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -7,21 +7,21 @@ This repository contains useful notebook examples on how to extract and visualiz
 breast cancer data from the World Health Organization (WHO) database.
 
 <p style="text-align: left;">
-  <img src="assets/incidence.png" width="60%" style="background-color:black">
+  <img src="assets/incidence.png" width="90%" style="background-color:black">
 </p>
 
-## Dependencies
+## [Dependencies](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#dependencies)
 
 The Notebooks were tested against Python 3.8 on macOS operating system. However, they should be
 quite robust against different setups. The following dependencies were used, and are
 installed directly through the notebooks:
 
-* pandas
-* plotly
-* nbformat
-* kaleido
+* [pandas](https://pypi.org/project/pandas/)
+* [plotly](https://pypi.org/project/plotly/)
+* [nbformat](https://pypi.org/project/nbformat/)
+* [kaleido](https://pypi.org/project/kaleido/)
 
-## Usage
+## [Examples](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#Examples)
 
 Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory.
 
@@ -33,7 +33,7 @@ They can be accessed by clicking their respective colab badge below:
 | Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
-## License
+## [License](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#License)
 
 This repository has [MIT license](https://github.com/andreped/breast-cancer-stats/blob/main/LICENSE).
 
