@@ -26,17 +26,17 @@ jobs:
       
       - name: Launch notebook
         uses: yaananth/run-notebook@v2
-        env:
-          RUNNER: ${{ toJson(runner) }}
+        #env:
+        #  RUNNER: ${{ toJson(runner) }}
         with:
           notebook: "apps/breast_cancer_incidence_rate.ipynb"
           isReport: False
           poll: True
           
-      - uses: actions/upload-artifact@v3
-        if: always()
-        with:
-          name: output
-          path: ${{ RUNNER.temp }}/nb-runner
-        env:
-          RUNNER: ${{ toJson(runner) }}
+      #- uses: actions/upload-artifact@v3
+      #  if: always()
+      #  with:
+      #    name: output
+      #    path: ${{ RUNNER.temp }}/nb-runner
+      #  env:
+      #    RUNNER: ${{ toJson(runner) }}
