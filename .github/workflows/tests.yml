@@ -27,3 +27,9 @@ jobs:
       
       - name: Launch notebook
         run:  jupyter nbconvert --to notebook --execute apps/breast_cancer_incidence_rate.ipynb --ExecutePreprocessor.kernel_name='python3' --output ../notebook_executed
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: notebook
+          path: notebook_executed.ipynb
