@@ -19,12 +19,15 @@ installed directly through the notebooks:
 
 ## Usage
 
-Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory, and include:
+Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/apps/) directory.
+
+They can be accessed by clicking their respective colab badge below:
 
 | Use case | Notebook |
-| Incidence rate world map | [https://github.com/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate_plotly.ipynb] |
-| Mortality rate world map | b |
-| Overall cancer statistics | [https://github.com/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate_plotly.ipynb] |
+| - | - |
+| Incidence rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## License
 
