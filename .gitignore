@@ -5,7 +5,7 @@
 *venv/
 *.html
 *.log
-*.png
+apps/*.png
 *.pdf
 *.svg
 *.txt

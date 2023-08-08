@@ -1,5 +1,0 @@
-geopandas
-folium
-pycountry
-Pillow
-selenium
