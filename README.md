@@ -26,9 +26,11 @@ They can be accessed by clicking their respective colab badge below:
 
 ## [Dependencies](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#dependencies)
 
-The Notebooks were tested against Python 3.8 on macOS operating system. However, they should be
-quite robust against different setups. The following dependencies were used, and are
-installed directly through the notebooks:
+The Notebooks were tested against Python 3.8 on macOS operating system. Continuous integration tests are also performed for all notebooks
+on Ubuntu 20.04 operating system (see [here](https://github.com/andreped/breast-cancer-stats/actions)). They are also compatible with
+Google CoLab and should be quite robust against other setups.
+
+The following dependencies were used, and are installed directly through the notebooks:
 
 * [pandas](https://pypi.org/project/pandas/)
 * [plotly](https://pypi.org/project/plotly/)
