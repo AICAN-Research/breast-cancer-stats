@@ -20,10 +20,7 @@ jobs:
           python-version: 3.8
       
       - name: Install dependencies
-        run: |
-          pip install wheel setuptools
-          pip install black==22.3.0 isort==5.10.1 flake8==4.0.1
-          pip install jupyter nbconvert nbformat
+        run: pip install jupyter nbconvert nbformat
       
       - name: Launch notebook
         run:  jupyter nbconvert --to notebook --execute apps/breast_cancer_incidence_rate.ipynb --ExecutePreprocessor.kernel_name='python3' --output ../notebook_executed
