@@ -1,4 +1,4 @@
-# [breast-cancer-stats](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#breast-cancer-stats)
+# [breast-cancer-stats](https://github.com/andreped/breast-cancer-stats#breast-cancer-stats)
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/675594864.svg)](https://zenodo.org/badge/latestdoi/675594864)
@@ -12,7 +12,7 @@ breast cancer data from the World Health Organization (WHO) database.
   <img src="assets/incidence.png" width="90%" style="background-color:black">
 </p>
 
-## [Examples](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#Examples)
+## [Examples](https://github.com/andreped/breast-cancer-stats#examples)
 
 Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/tree/main/apps) directory.
 
@@ -24,7 +24,7 @@ They can be accessed by clicking their respective colab badge below:
 | Mortality rate world map | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_mortality_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/mortality.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/mortality/badge.svg" alt="Open In Colab"/></a> |
 | Overall cancer statistics | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_statistics.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/statistics.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/statistics/badge.svg" alt="Open In Colab"/></a> |
 
-## [Dependencies](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#dependencies)
+## [Dependencies](https://github.com/andreped/breast-cancer-stats#dependencies)
 
 The Notebooks were tested against Python 3.8 on macOS operating system. Continuous integration tests are also performed for all notebooks
 on Ubuntu 20.04 operating system (see [here](https://github.com/andreped/breast-cancer-stats/actions)). They are also compatible with
@@ -37,13 +37,13 @@ The following dependencies were used, and are installed directly through the not
 * [nbformat](https://pypi.org/project/nbformat/)
 * [kaleido](https://pypi.org/project/kaleido/)
 
-## [License](https://github.com/andreped/breast-cancer-stats/edit/main/README.md#License)
+## [License](https://github.com/andreped/breast-cancer-stats#license)
 
 This repository has [MIT license](https://github.com/andreped/breast-cancer-stats/blob/main/LICENSE).
 
 Note that the CSV files originate from the WHO website (see [here](https://gco.iarc.fr/today/online-analysis-map?v=2020&mode=ranking&mode_population=continents&population=900&populations=900&key=cum_risk&sex=2&cancer=20&type=1&statistic=5&prevalence=0&population_group=0&ages_group%5B%5D=0&ages_group%5B%5D=14&nb_items=10&group_cancer=0&include_nmsc=0&include_nmsc_other=0&projection=natural-earth&color_palette=default&map_scale=quantile&map_nb_colors=5&continent=0&show_ranking=0&rotate=%255B10%252C0%255D)) and have their own respective licences. Hence, if these files are used, you should cite these accordingly.
 
-## [Citation](https://github.com/andreped/breast-cancer-stats#Citation)
+## [Citation](https://github.com/andreped/breast-cancer-stats#citation)
 
 If you found this project useful, please, consider citing it in your research article:
 
