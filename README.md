@@ -14,9 +14,9 @@ breast cancer data from the World Health Organization (WHO) database.
 
 ## [Examples](https://github.com/andreped/breast-cancer-stats#examples)
 
-Example application notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/tree/main/apps) directory.
+Example notebooks are available in the [apps/](https://github.com/andreped/breast-cancer-stats/tree/main/apps) directory.
 
-They can be accessed by clicking their respective colab badge below:
+They can also be accessed by clicking their respective CoLab badge below:
 
 | Use case | Notebook | Tests |
 | - | - | - |
@@ -33,12 +33,18 @@ The Notebooks were tested against Python 3.8 on macOS operating system. Continuo
 on Ubuntu 20.04 operating system (see [here](https://github.com/andreped/breast-cancer-stats/actions)). They are also compatible with
 Google CoLab and should be quite robust against other setups.
 
-The following dependencies were used, and are installed directly through the notebooks:
+The following dependencies were used and are installed as part of the notebooks:
 
 * [pandas](https://pypi.org/project/pandas/)
 * [plotly](https://pypi.org/project/plotly/)
 * [nbformat](https://pypi.org/project/nbformat/)
 * [kaleido](https://pypi.org/project/kaleido/)
+
+## [Troubleshooting](https://github.com/andreped/breast-cancer-stats#troubleshooting)
+
+If you attempt to run the notebooks locally or view them from GitHub, the resulting image may not be displayed.
+This is due to the renderer in Plotly's `show()` method being set to `show(renderer="colab")`.
+By removing the specification of renderer or choosing an appropriate renderer, the resulting image should be shown in the notebook.
 
 ## [License](https://github.com/andreped/breast-cancer-stats#license)
 
