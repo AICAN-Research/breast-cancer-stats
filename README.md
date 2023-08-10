@@ -26,6 +26,8 @@ They can also be accessed by clicking their respective CoLab badge below:
 | Survival country comparison | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/bc_survival.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/survival.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/survival/badge.svg" alt="Open In Colab"/></a> |
 | Cancer incidence over time | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/bc_incidence_over_time.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/incidence_temporal.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/incidence_temporal/badge.svg" alt="Open In Colab"/></a> |
 | Cancer mortality over time | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/bc_mortality_over_time.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/mortality_temporal.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/mortality_temporal/badge.svg" alt="Open In Colab"/></a> |
+| Cancer incidence over time w.r.t age | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/bc_incidence_over_time_age_groups.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/incidence_temporal_age.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/incidence_temporal_age/badge.svg" alt="Open In Colab"/></a> |
+| Cancer mortality over time w.r.t age | <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/bc_mortality_over_time_age_groups.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | <a href="https://github.com/andreped/breast-cancer-stats/actions/workflows/mortality_temporal_age.yml" target="_parent"><img src="https://github.com/andreped/breast-cancer-stats/workflows/mortality_temporal_age/badge.svg" alt="Open In Colab"/></a> |
 
 ## [Dependencies](https://github.com/andreped/breast-cancer-stats#dependencies)
 
@@ -42,9 +44,9 @@ The following dependencies were used and are installed as part of the notebooks:
 
 ## [Troubleshooting](https://github.com/andreped/breast-cancer-stats#troubleshooting)
 
-If you attempt to run the notebooks locally or view them from GitHub, the resulting image may not be displayed.
-This is due to the renderer in Plotly's `show()` method being set to `show(renderer="colab")`.
-By removing the specification of renderer or choosing an appropriate renderer, the resulting image should be shown in the notebook.
+Note that all renderered results could be interactive, but we have set Plotly's `show(renderer="png")`,
+to enable the result to be shown in the output on CoLab, on GitHub, and locally. To get interactive
+figures on CoLab set `show(renderer="colab")`, or locally use the default `show()`.
 
 ## [License](https://github.com/andreped/breast-cancer-stats#license)
 
