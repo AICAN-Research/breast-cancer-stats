@@ -9,3 +9,4 @@ apps/*.png
 *.pdf
 *.svg
 *.txt
+*apps/results/
