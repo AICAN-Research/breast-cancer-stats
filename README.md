@@ -46,13 +46,17 @@ The following dependencies were used and are installed as part of the notebooks:
 
 Note that all renderered results could be interactive, but we have set Plotly's `show(renderer="png")`,
 to enable the result to be shown in the output on CoLab, on GitHub, and locally. To get interactive
-figures on CoLab set `show(renderer="colab")`, or locally use the default `show()`.
+figures on CoLab set `show(renderer="colab")`, or locally use the default `show()`. GitHub only support static figures.
 
 ## [License](https://github.com/andreped/breast-cancer-stats#license)
 
 This repository has [MIT license](https://github.com/andreped/breast-cancer-stats/blob/main/LICENSE).
 
-Note that the CSV files originate from the WHO website (see [here](https://gco.iarc.fr/today/online-analysis-map?v=2020&mode=ranking&mode_population=continents&population=900&populations=900&key=cum_risk&sex=2&cancer=20&type=1&statistic=5&prevalence=0&population_group=0&ages_group%5B%5D=0&ages_group%5B%5D=14&nb_items=10&group_cancer=0&include_nmsc=0&include_nmsc_other=0&projection=natural-earth&color_palette=default&map_scale=quantile&map_nb_colors=5&continent=0&show_ranking=0&rotate=%255B10%252C0%255D)) and have their own respective licences. Hence, if these files are used, you should cite these accordingly.
+Note that the CSV files originate from WHO-related websites. Global data from [Cancer Today](https://gco.iarc.fr/today/home)
+(powered by GLOBOCAN 2020) and Nordic data from [NORDCAN](https://nordcan.iarc.fr/en).
+If you use these figures or datasets, please, cite the appropriate
+references. Information on how to cite these can be found [here](https://gco.iarc.fr/today/about#references) and
+[here](https://nordcan.iarc.fr/en/about), respectively.
 
 ## [Citation](https://github.com/andreped/breast-cancer-stats#citation)
 
