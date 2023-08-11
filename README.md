@@ -44,7 +44,7 @@ The following dependencies were used and are installed as part of the notebooks:
 
 ## [Troubleshooting](https://github.com/andreped/breast-cancer-stats#troubleshooting)
 
-Note that all renderered results could be interactive, but we have set Plotly's `show(renderer="png")`,
+Note that all rendered results could be interactive, but we have set Plotly's `show(renderer="png")`,
 to enable the result to be shown in the output on CoLab, on GitHub, and locally. To get interactive
 figures on CoLab set `show(renderer="colab")`, or locally use the default `show()`. GitHub only support static figures.
 
