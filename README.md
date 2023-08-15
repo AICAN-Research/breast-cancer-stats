@@ -50,7 +50,7 @@ figures on CoLab set `show(renderer="colab")`, or locally use the default `show(
 
 ## [License](https://github.com/andreped/breast-cancer-stats#license)
 
-This repository has [MIT license](https://github.com/andreped/breast-cancer-stats/blob/main/LICENSE).
+The code in this repository is released under [MIT license](https://github.com/andreped/breast-cancer-stats/blob/main/LICENSE).
 
 Note that the CSV files originate from WHO-related websites. Global data from [Cancer Today](https://gco.iarc.fr/today/home)
 (powered by GLOBOCAN 2020) and Nordic data from [NORDCAN](https://nordcan.iarc.fr/en).
