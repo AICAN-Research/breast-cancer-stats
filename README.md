@@ -1,7 +1,7 @@
 # [breast-cancer-stats](https://github.com/andreped/breast-cancer-stats#breast-cancer-stats)
 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
-[![DOI](https://zenodo.org/badge/675594864.svg)](https://zenodo.org/badge/latestdoi/675594864)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8232699.svg)](https://doi.org/10.5281/zenodo.8232699)
 <a href="https://colab.research.google.com/github/andreped/breast-cancer-stats/blob/main/apps/breast_cancer_incidence_rate.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 ![CI](https://github.com/andreped/breast-cancer-stats/workflows/incidence/badge.svg)
 
